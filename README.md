@@ -319,3 +319,169 @@ Quando uma transação ocorre entre os proprietários de duas carteiras digitais
 ### Cryptojacking
 
 É uma ameaça emergente que se esconde no computador, telefone celular, tablet, laptop ou servidor do usuário, usando os recursos dessa máquina para "extrair" moedas criptografadas sem o consentimento ou conhecimento do usuário.
+
+## Módulo 3: Protegendo seus dados e privacidade
+
+### Proteger seus dispositivos de computação
+
+- **Firewall**:
+    - Utilize pelo menos um tipo de **firewall**. 
+    - Mantenha o ativado e atualizado constantemente.
+- **Instalar antivírus e antispyware**
+    - Sempre baixe softwares de sites confiáveis.
+    - Utilize um **antivírus** para a proteção. 
+    - Mantenha seu software atualizado para proteger seu computador de qualquer novo software malicioso que surgir.
+- **Gerencie seu sistema operacional e navegador**
+    - Defina as configurações de segurança em seu computador e navegador para nível médio ou superior. 
+    - Atualize regularmente o sistema operacional do seu computador, incluindo o navegador da web.
+    - Baixe e instale os patches de software e atualizações de segurança mais recentes dos fornecedores.
+- **Configurar proteção por senha**
+    - Proteja oodos os seus dispositivos por senha para evitar acesso não autorizado. 
+    - Qualquer informação armazenada, especialmente dados sensíveis ou confidenciais, deve ser criptografada.
+    - Armazene apenas as informações necessárias em seu dispositivo móvel, para o caso de ser roubado ou perdido.
+
+### Dspositivos de IoT
+
+Apresentam um risco ainda maior do que os outros dispositivos de computação pois nao recebem atualizações de software frequentes. Se forem encontradas vulnerabilidades, provavelmente ficará vulnerável. 
+
+Quando esses dispositivos são comprometidos, permitem que os hackers acessem a rede e os dados locais. 
+
+A melhor maneira de se proteger é configurar qualquer dispositivo IoT em uma rede isolada.
+
+### Segurança de rede sem fio em casa
+
+Alterar o **SSID** predefinido e a senha padrão para evitar que invasores entrem na rede sem fio doméstica.
+
+Deve se criptografar a comunicação sem fio habilitando a segurança wireless e o recurso de criptografia **WPA2** em seu roteador sem fio.
+
+### Riscos públicos de Wi-Fi
+
+Verificar se:
+- Seu dispositivo não está configurado com compartilhamento de arquivos e mídia.
+- Requer autenticação do usuário com criptografia.
+
+Utilize um serviço de **VPN** criptografado para impedir que outras tenham acesso à suas informações, mesmo em casos de interceptação, em uma rede pública sem fio.
+
+### Bluetooth
+
+Pode ser explorado por hackers para espionar, estabelecer controles de acesso remoto, distribuir malware e consumir baterias.
+
+Manter desligado quando você não estiver usando.
+
+### Segurança de senha
+
+É importante que todas as suas contas on-line tenham uma senha exclusiva, uma vez que utilizar as mesmas senhas deixa você e seus dados vulneráveis a criminosos digitais.
+
+Dicas: 
+1. Não use palavras ou nomes do dicionário em nenhum idioma.
+2. Não use erros ortográficos comuns de palavras do dicionário.
+3. Se possível, use caracteres especiais como *! @ # $ % ^ & * ( )*.
+4. Não use nomes de computador ou nomes de contas.
+5. Use uma senha com mais de dez caracteres.
+
+### Frase secreta
+
+Considere usar uma frase secreta em vez de senhas pois: 
+    - Seu formato (*4T3 c2b4N0s*) é mais fácil de lembrar. 
+    - Menos vulnerável a ataques de força bruta ou de dicionário por conta da sua complexidade adicional.
+
+Dicas:
+- Escolha uma afirmação que seja significativa para você.
+- Adicione caracteres especiais como *! @ # $ % ^ & * ( )*.
+- Quanto mais tempo de uso mais fácil de lembra-la.
+- Evite declarações comuns ou famosas. *Por exemplo, letras de uma música popular*.
+
+### Diretrizes de Senha (NIST)
+
+Os padrões do **NIST** destinam-se a aplicações governamentais, mas também podem servir de padrão para outros setores.
+
+Visam atribuir a responsabilidade de verificação de usuário aos provedores de serviços e garantir uma experiência melhor para os usuários em geral. 
+
+Propõem que:
+- As senhas devem ter no *mínimo oito caracteres*, mas *não mais que 64 caracteres*.
+- Senhas comuns e facilmente adivinhadas, como *‘senha’* ou *‘abc123’* não devem ser usadas.
+- Não deve haver regras de composição, como ter que incluir letras maiúsculas e minúsculas e números.
+- Os usuários devem poder ver a senha ao digitar, para ajudar a melhorar a precisão.
+- Todos os caracteres e espaços devem ser permitidos.
+- Não deve haver dicas de senha.
+- Não deve haver período de expiração de senha.
+- Não deve haver autenticação baseada em conhecimento, como fornecer respostas a perguntas secretas ou verificar o histórico de transações.
+
+### O que é criptografia?
+
+É o processo de converter informações em um formato no qual pessoas não autorizadas não possam lê-las.
+
+Somente uma pessoa confiável, autorizada com a chave secreta ou uma senha pode descriptografar os dados e acessá-los em sua forma original.
+
+Não impede que alguém intercepte os dados, pode apenas impedir que uma pessoa não autorizada veja ou acesse o conteúdo.
+
+> Alguns criminosos podem decidir simplesmente criptografar seus dados e torná-los inutilizáveis até que você pague um resgate.
+
+### Como você criptografa seus dados?
+
+Programas de software são usados para criptografar arquivos, pastas e, até mesmo, unidades inteiras.
+
+
+#### EFS (Encrypting File System).
+- Sistema de criptografia do Windows.
+- Está diretamente vinculado a uma conta de usuário específica.
+- Somente o usuário que criptografa os dados poderá acessá-los depois.
+
+Para utiliza-lo você deve:
+1. Selecionar um ou mais arquivos ou pastas.
+2. Clicar com o botão direito nos dados selecionados e ir em *‘Propriedades’*.
+3. Localizar e clicar em *“Avançado”*.
+4. Marcar a caixa de seleção *‘Criptografar conteúdo para proteger os dados’*.
+5. Os arquivos e pastas criptografados com EFS são exibidos em verde.
+
+### Faça backup de seus dados
+
+Ter um backup pode evitar a perda de dados insubstituíveis.
+
+Para fazer backup dos dados corretamente, você precisará de um local de armazenamento adicional para os dados e deve copiar os dados para esse local regularmente.
+
+Opções de locais de armazenamento:
+- **Rede residencial**: armazenar seus dados localmente significa que você tem total controle deles.
+- **Local secundário**: você pode copiar todos os seus dados para um dispositivo de armazenamento conectado à rede (NAS).
+- **Nuvem**: com um serviço de armazenamento seus dados estarão seguros no caso de falha de um dispositivo de armazenamento ou se você enfrentar uma situação extrema, como um incêndio ou roubo.
+
+### Como você exclui os dados permanentemente?
+
+Para apagar dados para que não sejam mais recuperáveis, eles devem ser substituídos por uns e zeros várias vezes, usando ferramentas projetadas especificamente para fazer exatamente isso. 
+
+Ferramentas para cada SO:
+- **Windows**: SDelete. 
+- **Linux**: Shred.
+- **Mac OS**: Secure Empty Trash X.
+
+> A maneira mais garantida é destruir fisicamente o disco rígido ou o dispositivo de armazenamento.
+
+### Termos de serviço
+
+É um contrato legalmente vinculativo que rege as regras de relacionamento entre você, o provedor de serviços e outras pessoas que usam o serviço.
+
+Incluem várias seções, desde direitos e responsabilidades do usuário a isenções de responsabilidade e termos de modificação de conta.
+
+Seções:
+- **Política de uso de dados**: descreve como o provedor de serviços coletará, usará e compartilhará seus dados.
+- **Configurações de privacidade**: permitem controlar quem vê informações sobre você e quem pode acessar seus dados de perfil ou de conta.
+- **Política de segurança**: descreve o que a empresa está fazendo para proteger os dados obtidos de você.
+
+### Autenticação de dois fatores
+
+Adicionar uma camada extra de segurança nos logins de conta.
+
+Além de seu nome de usuário e senha ou número de identificação pessoal (PIN), a autenticação de dois fatores requer um segundo token para verificar sua identidade. Pode ser:
+- objeto físico, como um cartão de crédito, telefone celular ou fob (chave de segurança).
+- varredura biométrica, como impressão digital ou reconhecimento facial e de voz.
+- código de verificação enviado por SMS ou e-mail.
+
+### Autorização Aberta
+
+É um protocolo padrão aberto que permite que você use suas credenciais para acessar aplicativos de terceiros sem expor sua senha.
+
+### Privacidade de e-mail e navegador da Web
+
+Quando o modo privado está ativado, os cookies, arquivos salvos em seu dispositivo para indicar quais sites da Web visitados, são desativados. Portanto, todos os arquivos temporários da Internet são removidos e o histórico de navegação é excluído quando você fecha a janela ou o programa. Isso pode ajudar a evitar que outras pessoas colham informações sobre suas atividades online e tentem induzi-lo a comprar algo com anúncios direcionados.
+
+Fique atento com alguns dispositivos intermediários, como roteadores, pois eles podem reunir informações sobre o histórico de navegação de um usuário na web.
