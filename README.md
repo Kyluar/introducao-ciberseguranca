@@ -485,3 +485,250 @@ Além de seu nome de usuário e senha ou número de identificação pessoal (PIN
 Quando o modo privado está ativado, os cookies, arquivos salvos em seu dispositivo para indicar quais sites da Web visitados, são desativados. Portanto, todos os arquivos temporários da Internet são removidos e o histórico de navegação é excluído quando você fecha a janela ou o programa. Isso pode ajudar a evitar que outras pessoas colham informações sobre suas atividades online e tentem induzi-lo a comprar algo com anúncios direcionados.
 
 Fique atento com alguns dispositivos intermediários, como roteadores, pois eles podem reunir informações sobre o histórico de navegação de um usuário na web.
+
+## Dispositivos e Tecnologias de Cibersegurança
+
+### Dispositivos de segurança
+
+Podem ser dispositivos independentes, como um roteador ou ferramentas de software que são executados em um dispositivo de rede. 
+
+Eles se enquadram em seis categorias gerais, veja as abaixo:
+- **Roteadores**: geralmente oferecem recursos básicos de filtragem de tráfego ajudando a limitar o escopo de acesso dos computadores.
+- **Firewalls**: podem analisar melhor o tráfego de rede e identificar comportamentos mal-intencionados que precisam ser bloqueados.
+- **Sistemas de prevenção de invasão**: Os sistemas **IPS** usam um conjunto de assinaturas de tráfego que correspondem e bloqueiam tráfego e ataques mal-intencionados.
+- **Redes Privadas Virtuais (VPN)**: permitem que os funcionários remotos usem um túnel criptografado seguro em seus computadores móveis e se conectem com segurança à rede da empresa. Podem também interconectar com segurança filiais com a rede da central.
+- **Antivírus e Antimalware**: esses sistemas usam assinaturas ou análises comportamentais das aplicações para identificar e bloquear a execução de códigos mal-intencionados.
+- **Outros dispositivos de segurança**: incluem dispositivos de segurança para web e e-mail, dispositivos de descriptografia, servidores de controle de acesso de clientes e sistemas de gerenciamento de segurança.
+
+### Firewalls
+
+Um firewall é projetado para controlar ou filtrar quais comunicações são permitidas dentro e quais são permitidas fora de um dispositivo ou rede. 
+
+Pode ser:
+- **baseado em host**: instalado em um único computador com o objetivo de proteger aquele computador. 
+- **baseado em rede**: atua como um dispositivo de rede autônomo que protege uma rede inteira de computadores e todos os dispositivos host nessa rede.
+
+À medida que os ataques a computadores e redes se tornaram mais sofisticados, novos tipos de firewalls foram desenvolvidos, com finalidades diferentes.
+
+Tipos mais comuns são:
+- **Firewall de camada de rede**: filtra as comunicações com base nos endereços IP de origem e destino.
+- **Firewall da camada de transporte**: filtra as comunicações com base nas portas de dados de origem e destino, bem como nos estados de conexão.
+- **Firewall da camada de aplicação**: filtra as comunicações de acordo com um aplicativo, programa ou serviço.
+- **Firewall sensível ao contexto (Context-aware)**: filtra as comunicações com base no usuário, dispositivo, função, tipo de aplicativo e perfil de ameaça.
+- **Servidor proxy**: filtra solicitações de conteúdo da Web, como URLs, nomes de domínio e tipos de mídia.
+- **Servidor proxy reverso**: colocados na frente de servidores web, os servidores proxy reversos protegem, ocultam, descarregam e distribuem o acesso aos servidores web.
+- **Network address translation (NAT) firewall**: este firewall oculta ou mascara os endereços privados dos hosts da rede.
+- **Firewall baseado em host**: filtra portas e chamadas de serviço do sistema em um único sistema operacional de computador.
+
+### Varredura de portas
+
+É um processo de sondar um computador, servidor ou outro host de rede em busca de portas abertas.
+
+Ele pode ser usado maliciosamente como uma ferramenta de reconhecimento para identificar o sistema operacional e os serviços em execução em um computador ou host, ou pode ser usado sem causar danos por um administrador de rede para verificar as políticas de segurança da rede.
+
+
+### Sistemas de detecção e prevenção de intrusos
+
+*Sistemas de detecção de intrusão (IDSs)* e *sistemas de prevenção de intrusão (IPSs)* são medidas de segurança implantadas em uma rede para detectar e prevenir atividades maliciosas.
+
+#### IDS
+
+Pode ser um dispositivo de rede dedicado ou uma das várias ferramentas em um servidor, **firewall** ou até mesmo um sistema operacional de computador host, como Windows ou Linux.
+
+Funcionamento:
+1. Realiza uma varredura de dados em um banco de dados de regras ou assinaturas de ataque, em busca de tráfego malicioso.
+2. Se uma correspondência for detectada, o **IDS** registrará a detecção de registro e criará um alerta para um administrador de rede. 
+
+A varredura realizada pelo **IDS** deixa a rede mais lenta (conhecido como latência). Para se prevenir o atraso de rede, um **IDS** é geralmente colocado off-line, separado do tráfego de rede regular. Dados são copiados ou espelhados por um switch e então encaminhados para o **IDS** para a detecção off-line.
+
+> Note que o **IDS** não toma nenhuma ação e, portanto, não impede que ataques aconteçam. Seu trabalho é apenas detectar, registrar e relatar.
+
+#### IPS
+
+Pode bloquear ou negar tráfego com base em uma regra positiva ou correspondência de assinatura. 
+
+Um dos sistemas mais conhecidos de **IPS/IDS** é o *Snort*. A versão comercial do *Snort* é o Sourcefire da Cisco. A Sourcefire pode realizar análise de tráfego e porta em tempo real, registro, pesquisa e correspondência de conteúdo, bem como detectar sondas, ataques e executar varreduras de porta. Ele também se integra com outras ferramentas de terceiros para relatórios, desempenho e análise de log.
+
+### Detecção em tempo real
+
+Muitas organizações hoje são incapazes de detectar ataques dias ou até meses após sua ocorrência.
+
+A detecção de ataques em tempo real requer a verificação ativa de ataques usando **firewall** e dispositivos de rede **IDS/IPS**.
+
+A detecção de malware de cliente e servidor de próxima geração com conexões a centros de ameaças globais online também deve ser usada.
+
+Atualmente, os softwares e dispositivos de varredura ativos devem detectar anomalias de rede usando a detecção de comportamento e análise baseada em contexto.
+
+### Proteção contra Malware
+
+Uma forma de se defender contra ataques de dia zero e ameaças persistentes avançadas (**APTs**) é usar um **AMP**.
+
+#### AMP 
+
+É um software cliente/servidor que pode ser implantado em host endpoints, como um servidor autônomo ou em outros dispositivos de segurança de rede.
+
+Ele analisa milhões de arquivos e os correlaciona com centenas de milhões de outros artefatos de malware analisados para comportamentos que revelam um **APT**.
+
+Isso proporciona uma visão geral de ataques, de campanhas e de distribuição de malware.
+
+### Práticas recomendadas de segurança
+
+Algumas das diretrizes mais úteis são encontradas em repositórios organizacionais, como o *Centro de Recursos de Segurança de Computadores do Instituto Nacional de Padrões e Tecnologia* (**NIST**).
+
+- **Executar avaliação de risco**: saber o valor do que você está protegendo ajudará a justificar os gastos com segurança.
+- **Política de segurança**: criar uma política que descreva com clareza as regras da empresa, os cargos, as responsabilidades e expectativas dos funcionários.
+- **Medidas de segurança física**: restringir o acesso a armários de rede e locais de servidor, além de implementar sistemas de supressão de incêndio.
+- **Medidas de segurança para recursos humanos**: garantir que verificações de antecedentes sejam concluídas para todos os funcionários antes da contratação.
+- **Realizar e testar backups**: realizar o backup das informações regularmente e validar a eficácia da recuperação de dados.
+- **Manter patches e atualizações de segurança**: atualizar periodicamente os sistemas operacionais e softwares de servidores, estações de trabalho e ativos de rede.
+- **Empregar controles de acesso**: configurar funções e níveis de privilégio de usuário, priorizando o uso de autenticação forte.
+- **Teste regularmente a resposta a incidentes**: manter uma equipe dedicada e realizar simulações periódicas de cenários de emergência.
+- **Implementar uma ferramenta de monitoramento, análise e gerenciamento de rede**: adotar uma solução de monitoramento que se integre nativamente com outras tecnologias de segurança.
+- **Implementar dispositivos de segurança de rede**: utilizar roteadores, firewalls e outros appliances de segurança de última geração (Next-Gen).
+- **Implementar uma solução de segurança de endpoints abrangente**: utilizar softwares antimalware e antivírus de nível corporativo em todos os dispositivos.
+- **Educar os usuários**: fornecer treinamentos contínuos aos funcionários sobre procedimentos, ameaças e boas práticas de segurança.
+- **Criptografar dados**: aplicar protocolos de cifragem para proteger informações sensíveis tanto em repouso quanto em trânsito pela rede.
+
+### Segurança baseada em comportamento
+
+É uma forma de detecção de ameaças que envolve a captura e análise do fluxo de comunicação entre um usuário na rede local e um destino local ou remoto. 
+
+Quaisquer alterações nos padrões normais de comportamento são consideradas anomalias e podem indicar um ataque.
+
+#### Honeypots
+
+É uma ferramenta de detecção baseada em comportamento que atrai o invasor apelando para seu padrão previsto de comportamento malicioso. Quando o invasor estiver dentro do honeypot, o administrador de rede poderá capturar, registrar e analisar o comportamento dele para que possa construir uma defesa melhor.
+
+#### Arquitetura da Solução Cisco Cyber Threat Defense
+
+Esta arquitetura de segurança usa detecção e indicadores baseados em comportamento para fornecer maior visibilidade, contexto e controle. O objetivo é saber quem está realizando o ataque, que tipo de ataque ele está realizando e onde, quando e como o ataque está ocorrendo. 
+
+Essa arquitetura de segurança usa muitas tecnologias de segurança para atingir esse objetivo.
+
+### NetFlow
+
+Essa tecnologia é usada para coletar informações sobre os dados que fluem através de uma rede, incluindo quem e quais dispositivos estão na rede, e quando e como os usuários e dispositivos acessam a rede.
+
+**Switches**, **roteadores** e **firewalls** equipados com **NetFlow** podem relatar informações sobre a entrada, saída e passagem de dados pela rede. 
+
+Essas informações são enviadas para coletores do **NetFlow** que coletam, armazenam e analisam esses dados, que podem ser usados para estabelecer comportamentos de linha de base em mais de 90 atributos, como *endereço IP* de *origem* e *destino*.
+
+### Teste de penetração
+
+Ato de avaliar um sistema de computador, uma rede ou uma empresa em busca de vulnerabilidades de segurança.
+
+Um pen test procura violar sistemas, pessoas, processos e códigos para descobrir vulnerabilidades que podem ser exploradas.
+
+Essas informações são usadas para melhorar as defesas do sistema e garantir que ele possa suportar ataques cibernéticos no futuro.
+
+#### Processo de pen test
+
+1. **Planejamento**:
+    - O **pen tester** coleta o máximo de informações possível sobre um sistema ou rede de destino, suas vulnerabilidades e *exploits* potenciais para usar contra ele.
+    - Isso envolve a realização de pesquisas de vulnerabilidade e reconhecimento passivo ou ativo (*footprinting*).
+
+2. **Varredura**:
+    - O **pen tester** realiza o reconhecimento ativo para investigar um sistema ou rede de destino e identificar possíveis pontos fracos que, se explorados, podem dar acesso ao invasor. O reconhecimento ativo pode incluir:
+        - Varredura de porta para identificar possíveis pontos de acesso em um sistema de destino.
+        - Verificação de vulnerabilidades para identificar possíveis vulnerabilidades exploráveis de um determinado alvo.
+        - Estabelecer uma conexão ativa com um destino (enumeração) para identificar a conta de usuário, de sistema e de administrador.
+
+3. **Obter acesso**:
+    - O **pen tester** tentará obter acesso a um sistema de destino e detectar o tráfego de rede, usando vários métodos para explorar o sistema, incluindo:
+        - lançar um *exploit* com um payload no sistema
+        - violar barreiras físicas a ativos
+        - engenharia social
+        - explorando vulnerabilidades de sites
+        - explorando vulnerabilidades ou configurações incorretas de software e hardware
+        - violar a segurança dos controles de acesso
+        - quebrar Wi-Fi com criptografia fraca.
+
+4. **Manter o acesso**:
+    - O **pen tester** manterá o acesso ao alvo para descobrir quais dados e sistemas estão vulneráveis à exploração. É importante que não sejam detectados, normalmente usando *backdoors*, *cavalos de Troia*, *rootkits* e outros canais encobertos para ocultar sua presença.
+    - Quando essa infraestrutura estiver em vigor, o **pen tester** prosseguirá para coletar os dados que eles consideram valiosos.
+
+5. **Análise e geração de relatórios**:
+    - O **pen tester** fornecerá feedback por meio de um relatório que recomenda *atualizações de produtos*, *políticas e treinamento* para melhorar a segurança de uma empresa.
+
+### Redução do impacto
+
+Nenhum conjunto de práticas de segurança é infalível. Portanto, as empresas devem estar preparadas para conter os danos caso ocorra uma violação de segurança.
+
+Ações que as empresas devem adotar quando uma violação de segurança é identificada:
+- **Comunicar o problema**:
+    - Internamente, todos os funcionários devem ser informados e um plano de ação claro deve ser comunicado.
+    - Externamente, todos os clientes devem ser informados através de comunicação direta e anúncios oficiais.
+- **Ser sincero e responsável**: Responda à violação de forma honesta e genuína, assumindo a responsabilidade onde a empresa é culpada.
+- **Forneça os detalhes**: Esteja aberto e explique por que a violação ocorreu e quais informações foram comprometidas.
+- **Encontre a causa**: Tome medidas para entender o que causou e facilitou a violação.
+- **Aplicar lições aprendidas**: certifique-se de que todas as lições aprendidas em investigações forenses sejam aplicadas para evitar violações semelhantes no futuro.
+- **Verificar, e verificar novamente**: garanta que todos os sistemas estejam limpos, não haja backdoors instalados e nada mais tenha sido comprometido.
+- **Eduque**: conscientizar, treinar e educar funcionários, parceiros e clientes sobre como prevenir violações futuras.
+
+### O que é gerenciamento de risco?
+
+O gerenciamento de riscos é o processo formal de identificação e avaliação contínuas dos riscos para reduzir o impacto das ameaças e vulnerabilidades.
+
+Você não pode eliminar completamente o risco, mas pode determinar níveis aceitáveis ponderando o impacto de uma ameaça com o custo de implementação de controles para mitigá-la.
+
+> O custo de um controle nunca deve ser maior que o valor do ativo que você está protegendo.
+
+#### Defina o Risco
+
+Identifique as ameaças que aumentam o risco. 
+
+Podem incluir:
+- processos;
+- produtos;
+- ataques;
+- possível falha ou interrupção de serviços;
+- percepção negativa da reputação de uma empresa;
+- possível responsabilidade legal;
+- perda de propriedade intelectual.
+
+#### Classifique o Risco
+
+Determine a gravidade que cada ameaça representa. 
+
+Por exemplo, algumas ameaças podem paralisar toda uma empresa, enquanto outras podem ser apenas pequenos inconvenientes. 
+
+O risco pode ser priorizado ao avaliar o impacto financeiro (uma análise quantitativa) ou o impacto escalado na operação de uma organização (uma análise qualitativa).
+
+#### Responda ao Risco
+
+Desenvolver um plano de ação para reduzir a exposição geral aos riscos da empresa, detalhando onde os riscos podem ser eliminados, mitigados, transferidos ou aceitos.
+
+Analise continuamente qualquer risco reduzido por meio de ações de eliminação, mitigação ou transferência. Lembre-se, nem todos os riscos podem ser eliminados, então você precisará monitorar atentamente todas as ameaças que foram aceitas.
+
+## Abordagem da Cisco para Cibersegurança
+
+### Cartilha de segurança
+
+Deve fornecer orientação sobre:
+- Como identificar os riscos de segurança digital para sistemas, ativos, dados e recursos
+- A implementação de proteções e treinamento de pessoal
+- Um plano de resposta flexível que minimiza o impacto e os danos em caso de violação de segurança
+- As medidas e os processos de segurança que precisam ser implementados após uma violação de segurança.
+
+Todas estas informações devem ser compiladas em um *manual de segurança*.
+
+#### Manual de segurança
+
+É um conjunto de consultas ou relatórios que descrevem um processo padronizado de detecção e resposta a incidentes. Idealmente, um manual de segurança deve:
+- Destacar como identificar e automatizar a resposta a ameaças comuns, como a detecção de máquinas infectadas por malware, atividade de rede suspeita ou tentativas de autenticação irregular.
+- Descrever e definir claramente o tráfego de entrada e saída.
+- Fornecer informações resumidas, incluindo tendências, estatísticas e contagens.
+- Fornecer acesso utilizável e rápido às principais estatísticas e métricas.
+correlacionar eventos em todas as fontes de dados relevantes.
+
+### Ferramentas para prevenção e detecção de incidentes
+
+#### SIEM
+
+Um sistema *Security Information and Event Management (SIEM)* coleta e analisa alertas de segurança, logs e outros dados históricos e em tempo real de dispositivos de segurança na rede para facilitar a detecção precoce de ataques cibernéticos.
+
+#### DLP
+
+Um sistema de *Data Loss Prevention (DLP)* é projetado para impedir que dados confidenciais sejam roubados ou escapem de uma rede. 
+
+Ele monitora e protege os dados em três estados diferentes: *dados em uso* (dados sendo acessados por um usuário), *dados em movimento* (dados que viajam pela rede) e *dados inativos* (dados armazenados em uma rede ou dispositivo de computador).
