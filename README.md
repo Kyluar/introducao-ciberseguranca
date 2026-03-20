@@ -700,8 +700,6 @@ Desenvolver um plano de ação para reduzir a exposição geral aos riscos da em
 
 Analise continuamente qualquer risco reduzido por meio de ações de eliminação, mitigação ou transferência. Lembre-se, nem todos os riscos podem ser eliminados, então você precisará monitorar atentamente todas as ameaças que foram aceitas.
 
-## Abordagem da Cisco para Cibersegurança
-
 ### Cartilha de segurança
 
 Deve fornecer orientação sobre:
@@ -732,3 +730,56 @@ Um sistema *Security Information and Event Management (SIEM)* coleta e analisa a
 Um sistema de *Data Loss Prevention (DLP)* é projetado para impedir que dados confidenciais sejam roubados ou escapem de uma rede. 
 
 Ele monitora e protege os dados em três estados diferentes: *dados em uso* (dados sendo acessados por um usuário), *dados em movimento* (dados que viajam pela rede) e *dados inativos* (dados armazenados em uma rede ou dispositivo de computador).
+
+## Módulo 5: O seu futuro estará na segurança cibernética?
+
+### Questões jurídicas em segurança cibernética
+
+Os profissionais de cibersegurança desenvolvem muitas habilidades, que podem ser usadas de forma positiva ou ilegal. 
+
+A maioria dos hacks deixa rastros, que podem ser rastreados até você.
+
+Além de trabalhar dentro dos limites da lei, você também deve ser capaz de demonstrar comportamento ético e agir com responsabilidade em seu trabalho.
+
+#### Questões jurídicas corporativas
+
+Em alguns casos, se você violar as leis de segurança cibernética enquanto faz seu trabalho, a organização pode ser punida e você pode perder seu emprego. Em outros casos, você pode ser processado, multado e possivelmente condenado.
+
+Em geral, se você não tiver certeza se uma ação ou comportamento pode ser ilegal, assuma que é ilegal e não o faça. 
+
+Sempre verifique com o departamento jurídico ou de RH da empresa.
+
+#### Direito internacional e Cibersegurança
+
+A lei internacional de cibersegurança é um campo em constante evolução.
+
+Os ataques cibernéticos ocorrem no *ciberespaço*, um espaço eletrônico criado, mantido e de propriedade de entidades públicas e privadas. Não há limites geográficos tradicionais no *ciberespaço*.
+
+É muito mais fácil mascarar a origem de um ataque na guerra cibernética do que na guerra convencional.
+
+A sociedade global ainda está debatendo a melhor forma de lidar com o *ciberespaço*.
+
+A prática do país, *opinio juris* e quaisquer tratados elaborados irão moldar a lei internacional de cibersegurança.
+
+### Questões éticas em segurança cibernética
+
+Quando assolado por dúvidas à respeito de qual decisão tomar em impasses éticos. Faça a si mesmo as seguintes perguntas:
+- A ação é lícita?
+- Sua ação está em conformidade com a política da empresa?
+- Sua ação será favorável para a empresa e suas partes interessadas?
+- Tudo bem se todos na empresa fizerem isso?
+- O resultado de sua ação representaria empresa em uma perspectiva positiva em uma manchete?
+
+> Acesse a [árvore de decisão](./res/decision_tree.pdf) que pode ser aplicada ao seu próprio local de trabalho.
+
+### Certificações profissionais
+
+- **Cisco Certified Support Technician (CCST) Cibersegurança**: esta certificação é destinada a estudantes do ensino médio e em início de faculdade, bem como àqueles interessados em uma mudança de carreira.
+- **CompTIA Security+**: esta é uma certificação de segurança básica que atende aos requisitos da Diretiva 8570.01-M do Departamento de Defesa dos EUA, que é um item importante para quem procura trabalhar em segurança de TI para o governo federal.
+- **Hacker Ético Certificado pelo EC-Council (CEH-Certified Ethical Hacker)**: esta certificação testa sua compreensão e conhecimento de como procurar fraquezas e vulnerabilidades em sistemas alvo usando o mesmo conhecimento e ferramentas de um hacker malicioso, mas de maneira legal e legítima.
+- **ISC2 Certified Information Systems Security Professional (CISSP)**: essa é a certificação de segurança mais conhecida e reconhecida. Para fazer o exame, você precisa ter pelo menos cinco anos de experiência relevante no setor.
+- **Cisco Certified CyberOps Associate**: essa certificação valida as habilidades exigidas dos analistas de cibersegurança de nível de associado nos centros de operações de segurança.
+
+### Percursos de carreira em segurança cibernética
+
+A [CyberSeek](http://www.cyberseek.org/pathway.html) é uma ferramenta que fornece dados detalhados sobre oferta e demanda no mercado de trabalho de segurança digital para ajudar a preencher a lacuna de habilidades em Cibersegurança.
